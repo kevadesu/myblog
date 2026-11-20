@@ -18,7 +18,7 @@ content
             heading3 "→ posts"
             for file in $PROJECT_DIR/src/posts/*.ibkx; do
                 FILENAME=$(echo $file | sed -e 's/\.ibkx$/.html/' -e 's#/src##')
-                hlink "href=\"$FILENAME\" class=\"button\" style=\"display: block; width: 10rem; box-sizing: border-box; text-align: left;\"" "$FILENAME"
+                hlink "href=\"$FILENAME\" class=\"button\" style=\"display: inline-block; width: 10rem; box-sizing: border-box; text-align: left;\"" "$FILENAME"
             done
         con.end
     con.end
