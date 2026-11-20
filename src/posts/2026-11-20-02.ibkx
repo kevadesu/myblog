@@ -1,6 +1,6 @@
 PROJECT_DIR=$(dirname "$0")
 BLOG_TITLE="welcome back"
-BG="../assets/bg.jpg"
+BG="../assets/Screenshot From 2024-12-08 19-17-49.png"
 BLOG_DATE="2026-11-20"
 
 init
