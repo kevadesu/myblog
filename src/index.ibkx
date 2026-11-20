@@ -16,10 +16,13 @@ content
             t "<small>the first blog written with IBK-Lang</small>"
 
             heading3 "→ posts"
-            for file in $PROJECT_DIR/src/posts/*.ibkx; do
+            for file in $(ls "$PROJECT_DIR"/src/posts/*.ibkx | sort -r); do
                 FILENAME=$(echo $file | sed -e 's/\.ibkx$/.html/' -e 's#/src##')
-                hlink "href=\"$FILENAME\" class=\"button\" style=\"display: inline-block; width: 10rem; box-sizing: border-box; text-align: left;\"" "$FILENAME"
+                eval "$(grep '^BLOG_TITLE=' "$file")"
+                eval "$(grep '^BLOG_DATE=' "$file")"
+                hyperlink "href=\"$FILENAME\" class=\"button\" style=\"display: inline-block; box-sizing: border-box; text-align: left;\"" "$BLOG_TITLE &middot; $BLOG_DATE"; t "<br>"
             done
+            hyperlink "href=\"https://kevadesu.github.io\"" "a blog by kevadesu"
         con.end
     con.end
 content.end

@@ -16,7 +16,7 @@ build() {
 
     echo "ibkbb/Build: Compiling posts..."
     for file in $PROJECT_DIR/src/posts/*.ibkx; do
-        $PROJECT_DIR/ibikei.sh "$file" $PROJECT_DIR/out/posts/$(basename "$file" .ibkx).html
+        $PROJECT_DIR/ibikei.sh "$file" "$PROJECT_DIR/out/posts/$(basename "$file" .ibkx).html"
     done
 
     echo "ibkbb/Build: Pouring in static..."
