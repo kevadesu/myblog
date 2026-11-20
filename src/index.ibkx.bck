@@ -1,0 +1,24 @@
+PROJECT_DIR=$(dirname "$0")
+
+init
+meta
+    meta.title "↓ segmentation success"
+    # echostyle
+    css "https://kevadesu.github.io/echostyle/style.css"
+    link "rel=\"preconnect\" href=\"https://fonts.googleapis.com\""
+    link "rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin"
+    css "https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap"
+meta.end
+content
+    con "class=\"desk\" style=\"background-image: url('https://link.to.background.image');\""
+        con "class=\"window\""
+            heading1 "↓ segmentation success"
+            t "<small>the first blog written with IBK-Lang</small>"
+
+            heading3 "→ posts"
+#            for blogpost in $PROJECT_DIR/posts; do
+
+#            done
+        con.end
+    con.end
+content.end

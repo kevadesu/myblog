@@ -1,0 +1,12 @@
+PROJECT_DIR=$(dirname "$0")
+BLOG_TITLE="Verity"
+BG="../assets/bg.jpg"
+
+init
+
+source $PROJECT_DIR/src/extensions/blogpost.ibke
+
+ptop
+heading1 "Test post"
+paragraph "Hello, I'm Verity!"
+pbottom

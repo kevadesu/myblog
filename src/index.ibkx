@@ -1,0 +1,25 @@
+PROJECT_DIR=$(dirname "$0")
+
+init
+meta
+    meta.title "↓ segmentation success"
+    # echostyle
+    css "https://kevadesu.github.io/echostyle/style.css"
+    meta.link "rel=\"preconnect\" href=\"https://fonts.googleapis.com\""
+    meta.link "rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin"
+    css "https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap"
+meta.end
+content
+    con "class=\"desk\" style=\"background-image: url('assets/bg.jpg');\""
+        con "class=\"window\""
+            heading1 "↓ segmentation success"
+            t "<small>the first blog written with IBK-Lang</small>"
+
+            heading3 "→ posts"
+            for file in $PROJECT_DIR/src/posts/*.ibkx; do
+                FILENAME=$(echo $file | sed -e 's/\.ibkx$/.html/' -e 's#/src##')
+                hlink "href=\"$FILENAME\" class=\"button\" style=\"display: block; width: 10rem; box-sizing: border-box; text-align: left;\"" "$FILENAME"
+            done
+        con.end
+    con.end
+content.end

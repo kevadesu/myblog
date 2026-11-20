@@ -1,0 +1,27 @@
+ptop() {
+    cat >> $IBK_OUT <<EOF
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> $BLOG_TITLE - ↓ segmentation success </title>
+    <link rel="stylesheet" href="https://kevadesu.github.io/echostyle/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="desk" style="background-image: url('$BG');">
+    <div class="window">
+EOF
+}
+
+pbottom() {
+    cat >> $IBK_OUT <<EOF
+        <a class="button" href="../index.html">Return to blog index</a>
+    </div>
+</body>
+</html>
+EOF
+}
