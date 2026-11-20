@@ -9,6 +9,51 @@
 <meta charset='UTF-8'>
 </head>
 <body>
+<style>
+        /* theme equals catppuccin */
+
+        .window {
+            background-color: #dce0e8d8;
+            color: #4c4f69
+        }
+
+        button,
+        .button {
+            background-color: #4c4f69;
+            color: #dce0e8;
+        }
+
+        button:hover,
+        .button:hover {
+            background-color: #8839ef;
+            color: #dce0e8;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .window {
+                background-color: #11111bd8;
+                color: #cdd6f4
+            }
+
+            button,
+            .button {
+                background-color: #cdd6f4;
+                color: #11111b;
+            }
+
+            button:hover,
+            .button:hover {
+                background-color: #cba6f7;
+                color: #11111b;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .album-photo {
+                border: dotted #cba6f7 5px;
+            }
+        }
+    </style>
 <div class="desk" style="background-image: url('assets/bg.jpg');">
 <div class="window">
 <h1>↓ segmentation success</h1>
