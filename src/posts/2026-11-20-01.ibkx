@@ -1,6 +1,6 @@
 PROJECT_DIR=$(dirname "$0")
 BLOG_TITLE="Verity"
-BG="../assets/bg.jpg"
+BG="https://i.ytimg.com/vi/tVlKLpxyCBY/mqdefault.jpg"
 BLOG_DATE="2026-11-20"
 
 init
