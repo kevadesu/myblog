@@ -1,14 +1,18 @@
+# Don't modify this
 PROJECT_DIR=$(dirname "$0")
+
+# Modify this
 BLOG_TITLE="Verity"
 BG="https://i.ytimg.com/vi/tVlKLpxyCBY/mqdefault.jpg"
 BLOG_DATE="2026-11-20"
 BLOG_DESC="Cursed template for new posts..."
 BLOG_TAGS="#random #verity #template"
 
+# Don't modify this
 init
-
 source $PROJECT_DIR/src/extensions/blogpost.ibke
-
 ptop
+# Edit here
 paragraph "I hope I'm not losing this."
+
 pbottom
