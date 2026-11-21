@@ -70,7 +70,7 @@ EOF
 
 pbottom() {
     cat >> $IBK_OUT <<EOF
-        <a class="button" href="../index.html">Return to blog index</a>
+        <a class="button" href="../index.html"> &lt;- Return to blog index</a>
     </div>
 </body>
 </html>
