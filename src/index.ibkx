@@ -4,7 +4,7 @@ init
 meta
     meta.title "↓ segmentation success"
     # echostyle
-    css "https://kevadesu.github.io/echostyle/style.css"
+    css "https://kevadesu.github.io/echostyle/skechou.css"
     meta.link "rel=\"preconnect\" href=\"https://fonts.googleapis.com\""
     meta.link "rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin"
     css "https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap"
@@ -17,7 +17,7 @@ content
 
         .window {
             background-color: #dce0e8d8;
-            color: #4c4f69
+            color: #4c4f69;
         }
 
         button,
@@ -30,6 +30,7 @@ content
         .button:hover {
             background-color: #8839ef;
             color: #dce0e8;
+            text-decoration: underline;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -63,12 +64,16 @@ content
             t "<small>the first blog written with IBK-Lang</small>"
 
             heading3 "→ posts"
-            for file in $(ls "$PROJECT_DIR"/src/posts/*.ibkx | sort -r); do
+            t "<center>"
+            for file in $(ls "$PROJECT_DIR"/src/posts/2*.ibkx | sort -r); do
                 FILENAME=$(echo $file | sed -e 's/\.ibkx$/.html/' -e 's#/src##')
                 eval "$(grep '^BLOG_TITLE=' "$file")"
                 eval "$(grep '^BLOG_DATE=' "$file")"
-                hyperlink "href=\"$FILENAME\" class=\"button\" style=\"display: inline-block; box-sizing: border-box; text-align: left;\"" "$BLOG_TITLE &middot; $BLOG_DATE"; t "<br>"
+                eval "$(grep '^BLOG_DESC=' "$file")"
+                eval "$(grep '^BLOG_TAGS=' "$file")"
+                hyperlink "href=\"$FILENAME\" class=\"button\" style=\"display: inline-block; box-sizing: border-box; text-align: left; width: 100%;\"" "<b><i>$BLOG_TITLE</i></b><br><small>$BLOG_DESC</small> <hr>&gt; $BLOG_DATE <br>&gt; $BLOG_TAGS"; t "<br>"
             done
+            t "</center>"
             hyperlink "href=\"https://kevadesu.github.io\"" "a blog by kevadesu"
         con.end
     con.end

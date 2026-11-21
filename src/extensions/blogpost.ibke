@@ -5,7 +5,7 @@ ptop() {
 
 <head>
     <title> $BLOG_TITLE - ↓ segmentation success </title>
-    <link rel="stylesheet" href="https://kevadesu.github.io/echostyle/style.css">
+    <link rel="stylesheet" href="https://kevadesu.github.io/echostyle/skechou.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap"
@@ -33,6 +33,7 @@ ptop() {
         .button:hover {
             background-color: #8839ef;
             color: #dce0e8;
+            text-decoration: underline;
         }
 
         @media (prefers-color-scheme: dark) {

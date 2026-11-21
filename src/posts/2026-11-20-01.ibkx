@@ -1,12 +1,30 @@
 PROJECT_DIR=$(dirname "$0")
-BLOG_TITLE="Verity"
-BG="https://i.ytimg.com/vi/tVlKLpxyCBY/mqdefault.jpg"
+BLOG_TITLE="welcome back"
+BG="../assets/Screenshot From 2024-12-08 19-17-49.png"
 BLOG_DATE="2026-11-20"
+BLOG_DESC="new start of my blog!"
+BLOG_TAGS="#devlog"
 
 init
 
 source $PROJECT_DIR/src/extensions/blogpost.ibke
 
 ptop
-paragraph "I hope I'm not losing this."
+paragraph "hello! it's me, kevadesu."
+paragraph "this is a new edition of my blog :p"
+paragraph "i acknowledge that i'm ass at blogging, so expect some low quality posts on this blog."
+paragraph "as to why i decided to name the blog...\"segmentation success\"? i..honestly don't know :sob: i tried to pick a name that sounds cool, but in the end i feel like it might sound corny/edgy to some :/ but that's besides the point!"
+paragraph "i'm more excited about telling you with what i'm writing this blog!!"
+paragraph "i'm using an SSG which literally no one other than me has heard of: <a href=\"https://github.com/ibikei\">ibikei!</a>"
+paragraph "it's an SSG i made myself, with a sort of...markup/programming language i made for it too? (IBK-Lang)"
+paragraph "the fun part is, any bash code is valid IBK-Lang. this gives me like, endless possibilities!"
+paragraph "look, you can even see what system i last built the blog from (updated every time the blog is recompiled btw:)"
+uname -a >> $IBK_OUT
+t "<br>"
+paragraph "or you can even see on which date and time i last updated the blog as a whole :P"
+date >> $IBK_OUT
+t "<br>"
+paragraph "if you're curious on how this works, you can take a look into my blog's repository <a href=\"https://github.com/kevadesu/myblog\">right here</a>, where you can see the source .ibkx files and stuff"
+paragraph "anyways, i don't really have much more in mind that i can write in this blog post, but i welcome you to a new beginning!"
+paragraph "i also hope you, the reader, will enjoy reading the blog posts as much as i enjoy writing them!!!"
 pbottom

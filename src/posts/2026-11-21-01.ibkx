@@ -1,0 +1,15 @@
+PROJECT_DIR=$(dirname "$0")
+BLOG_TITLE="Skechou, and a new blog stylesheet"
+BG="../assets/Screenshot from 2024-09-06 23-26-37.png"
+BLOG_DATE="2026-11-21"
+BLOG_DESC="A new Echostyle variant, and a new look for this blog!"
+BLOG_TAGS="#devlog #stylesheet #echostyle"
+
+init
+source $PROJECT_DIR/src/extensions/blogpost.ibke
+ptop
+
+paragraph "ignore the background, i just chose a random screenshot that was sitting in my Pictures folder, but anyway:"
+paragraph "i now have a new "
+
+pbottom
