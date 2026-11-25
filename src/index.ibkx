@@ -58,7 +58,7 @@ content
             }
         }
     </style>"
-    con "class=\"desk\" style=\"background-image: url('assets/bg.jpg');\""
+    con "class=\"desk\" style=\"background-image: url('assets/gladosquote.png');\""
         con "class=\"window\""
             heading1 "↓ segmentation success"
             t "<small>the first blog written with IBK-Lang</small>"
