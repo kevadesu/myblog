@@ -14,6 +14,7 @@ init
 source $PROJECT_DIR/src/extensions/blogpost.ibke
 ptop
 # Edit here
+t "<p style='color: green;'>last edited: same day as published.</p>"
 paragraph "background By <a href='https://commons.wikimedia.org/wiki/User:Deniev_Dagun' title='User:Deniev Dagun'>Deniev Dagun</a> - <span class='int-own-work' lang='en'>Own work</span>, <a href='https://creativecommons.org/licenses/by/4.0' title='Creative Commons Attribution 4.0'>CC BY 4.0</a>, <a href='https://commons.wikimedia.org/wiki/Special:Redirect/page/70916628'>Link</a>"
 con "class='notice'"
 paragraph "i am not trying to force my opinions on linguistics on anyone or dictate how stuff should be done, this article is merely my own opinion on linguistics."
@@ -39,6 +40,7 @@ heading3 "if two people can understand each other, do they speak the same langua
 paragraph "nope, not always. examples are Czech & Slovak, Belarusian & Ukrainian and Spanish & (written) Portuguese. these pairings have common ancestors and are closely related, but split a shitton of years ago."
 paragraph "danish, norwegian and swedish dialects all form a type of dialect continuum"
 paragraph "serbian, croatian, bosnian and montenegrin e.g. are highly mutually intelligible standardised varieties with distinct national and linguistic identities, though i'll get back to this later..."
+paragraph "and even when speakers recognise similar/familiar-sounding words, that doesn't necessarily mean they're going to understand them correctly. take latvian and lithuanian for example. the word <i>neatliekama</i> in lithuanian means something along the lines of \"not possible/not performed\", meanwhile it meant \"urgent\" or \"not postponable\" in latvian. so even when two words look almost identical, their meanings can still differ quite significantly."
 
 heading3 "if two people cannot understand each other, do they necessarily speak different languages?"
 paragraph "this is a more difficult question, as it may vary."

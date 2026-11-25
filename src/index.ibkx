@@ -61,7 +61,8 @@ content
     con "class=\"desk\" style=\"background-image: url('assets/gladosquote.png');\""
         con "class=\"window\""
             heading1 "↓ segmentation success"
-            t "<small>the first blog written with IBK-Lang</small>"
+            paragraph "the first blog written with IBK-Lang"
+            t "<small>last recompiled: $(date)</small>"
 
             heading3 "→ posts"
             t "<center>"
@@ -75,6 +76,8 @@ content
             done
             t "</center>"
             hyperlink "href=\"https://kevadesu.github.io\"" "a blog by kevadesu"
+            t "<br><br>"
+            hyperlink "href=\"https://ibikei.rootsource.cc\"" "powered by ibikei"
         con.end
     con.end
 content.end
