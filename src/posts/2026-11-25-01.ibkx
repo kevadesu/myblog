@@ -1,0 +1,130 @@
+# Don't modify this
+PROJECT_DIR=$(dirname "$0")
+
+# Modify this
+BLOG_TITLE="VOS IZ A SHPRAKH ON AN ARMEY ODER A FLOT?"
+BG="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Citation_de_Ferdinand_de_Saussure.jpg/1920px-Citation_de_Ferdinand_de_Saussure.jpg"
+BLOG_DATE="2026-11-25"
+BLOG_DESC="What defines a language, and what a dialect?"
+BLOG_TAGS="#linguistics #languages #politics"
+PCOM_URL="https://github.com/kevadesu/myblog/discussions/1"
+
+# Don't modify this
+init
+source $PROJECT_DIR/src/extensions/blogpost.ibke
+ptop
+# Edit here
+paragraph "background By <a href='https://commons.wikimedia.org/wiki/User:Deniev_Dagun' title='User:Deniev Dagun'>Deniev Dagun</a> - <span class='int-own-work' lang='en'>Own work</span>, <a href='https://creativecommons.org/licenses/by/4.0' title='Creative Commons Attribution 4.0'>CC BY 4.0</a>, <a href='https://commons.wikimedia.org/wiki/Special:Redirect/page/70916628'>Link</a>"
+con "class='notice'"
+paragraph "i am not trying to force my opinions on linguistics on anyone or dictate how stuff should be done, this article is merely my own opinion on linguistics."
+con.end
+
+paragraph "go to any person out on the streets, in your circle, or wherever you can find them, and ask them a simple question: what is a language, and what is a dialect?"
+paragraph "they might say \"oh, languages are mutually unintelligible, dialects are intelligible!\""
+paragraph "or they might say \"oh, it's those indigenous or minority languages\""
+paragraph "or they might say \"how the fuck did you get into my house???\", in which case you should probably make an effort to leave their home as quickly as possible. instead, you should glue your eyes to the funny letters on this article, and see it from my perspective."
+
+paragraph "first, i want to start off by saying that there's no <i>universally</i> applicable linguistic criterion that clearly separates languages from dialects."
+paragraph "\"b- but neru, why make this post then??\" well, because i want to, and i want to clear the multiple misconceptions about languages and dialects"
+t "<small><i>*cough cough* totally not talking about a family member that was confident just because they claimed to have more experience due to age</i></small>"
+paragraph "now, let's clear that out of the way and try to answer a question:"
+
+heading2 "what even IS a language?"
+t "<small>to expand on that question, what makes a language the same as another?</small>"
+paragraph "the main factor/criterion people are going to try to use is <b>mutual intelligibility*</b>"
+t "<small>* mutual intelligibility: factor, criterion or relationship in which speakers of two different but related languages/dialects can understand each other without prior study or special effort.</small>"
+paragraph "i don't mean to be bold, but this already fails as a criterion, and i can name two examples"
+
+heading3 "if two people can understand each other, do they speak the same language?"
+paragraph "nope, not always. examples are Czech & Slovak, Belarusian & Ukrainian and Spanish & (written) Portuguese. these pairings have common ancestors and are closely related, but split a shitton of years ago."
+paragraph "danish, norwegian and swedish dialects all form a type of dialect continuum"
+paragraph "serbian, croatian, bosnian and montenegrin e.g. are highly mutually intelligible standardised varieties with distinct national and linguistic identities, though i'll get back to this later..."
+
+heading3 "if two people cannot understand each other, do they necessarily speak different languages?"
+paragraph "this is a more difficult question, as it may vary."
+paragraph "but the answer i can give to this is \"not necessarily\", because again, it depends what you define as language."
+paragraph "e.g. see mandarin and cantonese. they have a substantial lack of spoken mutual intelligibility, yet they're commonly grouped under the broader term \"Chinese\". this is partly because of shared literary and historical traditions, as well as the existence of a common written standard. however, written cantonese does exist, and differs from standard written chinese in grammar and vocabulary."
+paragraph "or let me demonstrate an additional example from swiss german: people speaking Walliser/Valaisan or Walser dialects generally understand people speaking high/low alemannic swiss german (zürich, basel, bern, lucerne, st.gallen etc), but a person speaking high/low alemannic swiss german may have a lot of difficulties understanding walliser german. this is what we call an <b>asymmetrical mutual intelligibility</b>, which is also the case with spoken spanish and portuguese."
+
+heading2 "what about dialect continua?"
+paragraph "they're actually VERY relevant to this discussion."
+t "<img alt='A map describing the principal dialect groupings of the closed West Germanic dialect continuum between High German (Middle/Central and Upper German), Low German, Low Franconian and Frisian after 1945.' src='https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/West_Germanic_dialect_continuum_%28according_to_Wiesinger%2C_Heeringa_%26_K%C3%B6nig%29.png/1280px-West_Germanic_dialect_continuum_%28according_to_Wiesinger%2C_Heeringa_%26_K%C3%B6nig%29.png' style='width: 100%'>"
+t "<small>[purple|1 2 3 4 5] Low Franconian [orange|6 7 8] Frisian [blue|9 10 11 12 13 14 15 16] Low Saxon/Low German [yellow|17 18 19 20 21 22 23 24 25 26 27] Central German (part of High German) [gold|28 29 30 31 32 33 34 35 36] Upper German (part of High German)</small>"
+paragraph "this is a map of the west germanic dialect continuum. some of the major standardised languages that are associated with this continuum are dutch, german and luxembourgish."
+
+paragraph "obviously, the standard languages are going to noticeably be different from each other, and there may be different grades of mutual intelligibility,"
+paragraph "but there are a shitton of west germanic dialects!"
+paragraph "like imagine travelling through neighbouring communities. sure the neighbouring communities might already speak differently, but they remain mutually intelligible."
+paragraph "the band of mutual intelligibility eventually snaps between communities, the farther apart the communities are."
+paragraph "how would one possibly argue where a language begins and where it ends? if someone speaks a dialect in the Netherlands that belongs to Low Saxon/Low German, does that mean that they're speaking a dutch dialect, or a german dialect?"
+
+heading2 "standard languages: what about them?"
+paragraph "there are many scenarios where a standardised language was needed. as an example, let's pick Standard German."
+paragraph "before luther, german-speaking regions already had various written traditions, and latin remained particularly important in religious and scholarly contexts. however, there was no single universally accepted standard written german."
+paragraph "when martin luther translated the new testament in 1522, he drew upon existing written varieties, particularly the east central german chancery language, while incorporating linguistic features that helped make his work accessible across regional boundaries."
+paragraph "thanks to the printing press and the enormous influence of the reformation, his translation circulated widely and contributed significantly to the development of modern standard german. however, standardisation was a much longer process involving many other writers, institutions and grammarians."
+
+paragraph "wikipedia also highlights how the Luther Bible helped spread literacy and non-local forms of German, partly thanks to the printing press (Article: Luther Bible from en.wikipedia.org)."
+paragraph "beautiful."
+paragraph "..."
+paragraph "...in other cases, standardisation can involve selecting a particular variety as the standard, establishing various spelling conventions, publishing dictionaries and grammars, introducing it into schools and government, and/or developing literature and formal registers."
+t "<small>nonetheless of course, it's important to note that a language doesn't just then necessarily become a language just because it suddenly develops new grammatical structures, or a spelling convention. you wouldn't simply just go ahead and recklessly call <a href='https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al'>Arpitan</a> \"a dialect of french\", would you? that's what i thought.</small>"
+paragraph "despite this, a standard language is not inherently linguistically superior to the other varieties spoken by its population."
+paragraph "look at german-speaking switzerland. spoken standard german is primarily used in formal contexts or when communicating with people who don't understand swiss german. otherwise, alemannic dominates everyday spoken communication."
+t "<small>except for Samnaun GR, where Austro-Bavarian is spoken.</small>"
+paragraph "though DO NOT FORGET: Swiss Standard German nonetheless remains the written standard for newspapers, books, official communication and more."
+
+paragraph "now, back to the initial title:"
+t "<center>"
+heading1 "VOS IZ A SHPRAKH ON AN ARMEY ODER A FLOT?"
+t "<small>WHAT IS A LANGUAGE WITHOUT AN ARMY OR NAVY?</small>"
+heading1 "<i>aun iz a shprakh shtendik bloyz a dyalekt mit an armey aun a flot?</i>"
+t "<small><i>and is a language always just a dialect with an army and a navy?</i></small>"
+t "</center>"
+
+paragraph "well, the saying <i>is</i> provocative for highlighting the relationship between political power and linguistic classification."
+paragraph "look at these cases in a nutshell:"
+t "<ul>"
+t "<li><b>Luxembourgish</b></li>"
+paragraph "after WWII, efforts to codify and standardise luxembourgish became particularly important, partly as a means of reinforcing national identity following the german occupation. french influences were also deliberately favoured during parts of this process, an example of this is the fact that they call a bicycle a \"Vëlo\" (from french \"vélo\") instead of a \"Fahrrad\" like the germans would say. kind of like the swiss also say Velo. hmmmm..."
+paragraph "some people still call it a dialect of german. while luxembourgish belongs to the moselle-franconian dialect group of west central german and is closely related to neighbouring german varieties, classifying it as merely a german dialect overlooks its distinct linguistic standard, national status and identity."
+
+t "<li><b>Moldovan (Romanian)</b></li>"
+paragraph "following the soviet annexation of bessarabia and the creation of the Moldavian SSR, the USSR wanted to promote Moldovan as a separate language from Romanian to reinforce a distinct Moldovan identity, thereby weakening the perceived connection between moldova and romania."
+paragraph "it had its own <a href='https://en.wikipedia.org/wiki/Moldovan_Cyrillic_alphabet'>cyrillic alphabet</a> too and had a vocabulary that has been influenced by russian"
+paragraph "following independence in 1991, the declaration of independence identified the state language as romanian. however, the 1994 constitution continued to use the name 'moldovan language'. this term was eventually replaced with 'romanian language' in state legislation in 2023."
+
+t "<li><b>Serbo-Croatian (Bosnian, Serbian, Montenegrin, Croatian)</b></li>"
+paragraph "linguists generally see them as different standardised varieties of the same pluricentric language, though their naming and official status differ."
+paragraph "they aren't entirely homogeneous though; see croatian"
+paragraph "croatian and serbian have differences in vocabulary. for october e.g. the serbians say oktobar, but the croatians say listopad."
+paragraph "serbian and croatian also have different ways of pronouncing the historical \"yat\" in today's words commonly. e.g. croatians predominantly say svijet and bijel/bijeli, while serbians commonly say svet and beo/beli in the ekavian standard pronunciation."
+
+container "class='notice'"
+	paragraph "the difference in today's pronunciation of yat in serbo-croatian can be categorised in Ijekavian, Ekavian and Ikavian. while ekavian is the most common standard pronunciation in serbia, croatian, bosnian and montenegrin standards use ijekavian. serbian also recognises ijekavian as a standard pronunciation."
+container.end
+
+t "</ul>"
+
+heading2 "so in the end, what actually distinguishes a language from a dialect?"
+paragraph "well...i can't quite give a definitive answer, but instead you can keep these different dimensions in mind:"
+t "<ol>"
+t "<li><b>mutual intelligibility:</b> how easily speakers of different linguistic varieties understand each other</li>"
+t "<li><b>structural distance:</b> the difference in linguistic systems</li>"
+t "<li><b>standardisation:</b> the existence of a codified standard</li>"
+t "<li><b>sociolinguistic identity:</b> speakers' identification of their variety</li>"
+t "<li><b>political recognition:</b> classification by institutions</li>"
+t "<li><b>historical development:</b> evolution of varieties</li>"
+t "</ol>"
+
+paragraph "and in the end, it doesn't even matte- nah i'm joking, that was a linkin park reference. get it? haha...? okay sorry i'll stop..."
+paragraph "and in the end (fr) we don't really have a neat way of separating languages and dialects by some single linguistic measurement, since they aren't really mutually exclusive categories. they are classifications that have been shaped by linguistic history, differences in structure, cultural identity, standardisation and politics."
+paragraph "obviously, it's possible for a language to have many dialects, dialects that can form continua across political borders, and two varieties that can be linguistically very close while recognised as fully separate languages."
+paragraph "perhaps the most important thing to understand is that linguistic classification isn't always as straightforward as mere labels on some map may suggest!"
+
+
+paragraph "and that's pretty much all that i have to say. :p"
+paragraph "thanks a lot for listening to this rant, and i hope you enjoyed reading just as much as i enjoyed writing!"
+
+pcom
+pbottom

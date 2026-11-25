@@ -7,6 +7,7 @@ BG="https://i.ytimg.com/vi/tVlKLpxyCBY/mqdefault.jpg"
 BLOG_DATE="2026-11-20"
 BLOG_DESC="Cursed template for new posts..."
 BLOG_TAGS="#random #verity #template"
+PCOM_URL=""
 
 # Don't modify this
 init
@@ -15,4 +16,8 @@ ptop
 # Edit here
 paragraph "I hope I'm not losing this."
 
+
+# Uncomment if you want comments (specify URL in PCOM_URL)
+#pcom
+# Don't remove this 
 pbottom

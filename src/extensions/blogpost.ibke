@@ -68,6 +68,10 @@ ptop() {
 EOF
 }
 
+pcom() {
+        printf "<a class='button' href='%s'>&lt;...&gt; View comments</a>" "$PCOM_URL" >> "$IBK_OUT"
+}
+
 pbottom() {
     cat >> $IBK_OUT <<EOF
         <a class="button" href="../index.html"> &lt;- Return to blog index</a>
